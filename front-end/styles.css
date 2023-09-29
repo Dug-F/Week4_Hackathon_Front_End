@@ -41,3 +41,13 @@ label {
     background-color: #8B4513;
     border-color: #8B4513;
 }
+img{
+    margin : auto;
+    text-align: center;
+    width: 20%;
+    position: static;
+}
+.container {
+    position: relative;
+    top: -375px;
+}
