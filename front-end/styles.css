@@ -25,14 +25,11 @@ h1 {
     margin-top: 0;
     font-size: 0.9 rem;
     font-weight: normal;
+
 }
 
 #recipeId {
     width: 400px;
-    margin-left: 5px;
-}
-
-label {
     margin-left: 5px;
 }
 
@@ -41,13 +38,26 @@ label {
     background-color: #8B4513;
     border-color: #8B4513;
 }
-img{
-    margin : auto;
-    text-align: center;
-    width: 20%;
-    position: static;
+
+img {
+  position: absolute;
+  width: 20%;
+  margin-left: 5px;
 }
-.container {
-    position: relative;
-    top: -375px;
+
+.container-fluid {
+  position: relative;
+  width: 100%; /* Adjust as needed */
+  margin: 0 auto; /* Center horizontally */
+  margin-top: 50px; /* Adjust as needed for top margin */
 }
+
+#recipeId {
+    margin-top: 20px;
+}
+
+.inputs {
+    position: absolute;
+    margin-top: 400px;
+}
+

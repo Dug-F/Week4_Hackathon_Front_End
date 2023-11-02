@@ -14,7 +14,7 @@
   </head>
   <body>
     <head>
-       <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
           <button
@@ -44,16 +44,35 @@
         </div>
       </nav>
     </head>
+    <!-- <main>
+      <h1>Choose a Recipe</h1>
+      <img src="Almondcroissant.jpg" alt="Almond Croissant" />
+      <div class="inputs">
+        <div class="mb-3">
+          <input id="recipeId" class="form-control" name="id" placeholder="id" />
+        </div>
+        <button id="getButton" class="btn btn-primary" type="button" onclick="getRecipe()">Show Recipe</button>
+      </div>
+
+      <div class="container-fluid mt-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div id="recipesHolder"></div>
+          </div>
+        </div>
+      </div>
+    </main> -->
+
     <main>
       <h1>Choose a Recipe</h1>
-      <div class="mb-3">
-        <input id="recipeId" class="form-control" name="id" placeholder="id" />
+      <img src="Almondcroissant.jpg" alt="Almond Croissant" />
+      <div class="inputs">
+        <div class="mb-3">
+          <input id="recipeId" class="form-control" name="id" placeholder="id" />
+        </div>
+        <button id="getButton" class="btn btn-primary" type="button" onclick="getRecipe()">Show Recipe</button>
       </div>
-      <button id="getButton" class="btn btn-primary" type="button" onclick="getRecipe()">
-        Show Recipe
-      </button>
-
-      <div class="container mt-5">
+      <div class="container-fluid mt-5">
         <div class="row justify-content-center">
           <div class="col-lg-6">
             <div id="recipesHolder"></div>
